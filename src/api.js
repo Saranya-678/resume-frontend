@@ -15,7 +15,7 @@ import axios from "axios";
 // In local:  create a .env file and add REACT_APP_API_URL=http://localhost:8080
 // ------------------------------------------------------------
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
+  baseURL: "https://ai-resume-analyzer-production-6db5.up.railway.app",
 });
 
 // ------------------------------------------------------------
